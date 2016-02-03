@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A52F7971C60BF9E00148CDC /* IOUsersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7961C60BF9E00148CDC /* IOUsersListViewController.m */; };
+		6A52F7A51C60C54800148CDC /* IOAddUserInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7A41C60C54800148CDC /* IOAddUserInteractor.m */; };
+		6A52F7A91C60C5A100148CDC /* IOAddUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7A81C60C5A100148CDC /* IOAddUserDataManager.m */; };
+		6A52F7AD1C60C62F00148CDC /* IOAddUserPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7AC1C60C62F00148CDC /* IOAddUserPresenter.m */; };
+		6A52F7B01C60C65700148CDC /* IOAddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7AF1C60C65700148CDC /* IOAddUserViewController.m */; };
+		6A52F7B31C60C67B00148CDC /* IOAddUserWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7B21C60C67B00148CDC /* IOAddUserWireframe.m */; };
+		6A52F7BC1C60E97900148CDC /* IOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7BB1C60E97900148CDC /* IOUser.m */; };
+		6A52F7C01C60EE4000148CDC /* IOUsers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7BE1C60EE4000148CDC /* IOUsers.xcdatamodeld */; };
+		6A52F7C31C61CA1100148CDC /* IOCoreDataServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7C21C61CA1100148CDC /* IOCoreDataServices.m */; };
+		6A52F7CF1C61CB3700148CDC /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7CC1C61CB3700148CDC /* Employee+CoreDataProperties.m */; };
+		6A52F7D01C61CB3700148CDC /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F7CE1C61CB3700148CDC /* Employee.m */; };
+		6A93BB481C608AA00052BEDC /* IOLoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB211C608AA00052BEDC /* IOLoginInteractor.m */; };
+		6A93BB491C608AA00052BEDC /* IOLoginDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB271C608AA00052BEDC /* IOLoginDataManager.m */; };
+		6A93BB4A1C608AA00052BEDC /* IOLoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB2C1C608AA00052BEDC /* IOLoginPresenter.m */; };
+		6A93BB4B1C608AA00052BEDC /* IOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB2F1C608AA00052BEDC /* IOLoginViewController.m */; };
+		6A93BB4C1C608AA00052BEDC /* IOLoginWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB321C608AA00052BEDC /* IOLoginWireframe.m */; };
+		6A93BB4D1C608AA00052BEDC /* IOUsersListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB371C608AA00052BEDC /* IOUsersListInteractor.m */; };
+		6A93BB4E1C608AA00052BEDC /* IOUsersListDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB3D1C608AA00052BEDC /* IOUsersListDataManager.m */; };
+		6A93BB4F1C608AA00052BEDC /* IOUsersListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB411C608AA00052BEDC /* IOUsersListPresenter.m */; };
+		6A93BB511C608AA00052BEDC /* IOUsersListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93BB471C608AA00052BEDC /* IOUsersListWireframe.m */; };
+		6AFB4AFD1C5F28DA000E24C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4AFC1C5F28DA000E24C2 /* main.m */; };
+		6AFB4B001C5F28DA000E24C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4AFF1C5F28DA000E24C2 /* AppDelegate.m */; };
+		6AFB4B061C5F28DA000E24C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB4B041C5F28DA000E24C2 /* Main.storyboard */; };
+		6AFB4B081C5F28DA000E24C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB4B071C5F28DA000E24C2 /* Assets.xcassets */; };
+		6AFB4B0B1C5F28DA000E24C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB4B091C5F28DA000E24C2 /* LaunchScreen.storyboard */; };
+		6AFB4B161C5F28DA000E24C2 /* InteractionOneUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4B151C5F28DA000E24C2 /* InteractionOneUsersTests.m */; };
+		6AFB4B211C5F28DA000E24C2 /* InteractionOneUsersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4B201C5F28DA000E24C2 /* InteractionOneUsersUITests.m */; };
+		6AFB4B331C5F2BF5000E24C2 /* IODependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4B321C5F2BF5000E24C2 /* IODependencies.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AFB4B121C5F28DA000E24C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AFB4AF01C5F28DA000E24C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AFB4AF71C5F28DA000E24C2;
+			remoteInfo = InteractionOneUsers;
+		};
+		6AFB4B1D1C5F28DA000E24C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AFB4AF01C5F28DA000E24C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AFB4AF71C5F28DA000E24C2;
+			remoteInfo = InteractionOneUsers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A52F7951C60BF9E00148CDC /* IOUsersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUsersListViewController.h; sourceTree = "<group>"; };
+		6A52F7961C60BF9E00148CDC /* IOUsersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUsersListViewController.m; sourceTree = "<group>"; };
+		6A52F7A31C60C54800148CDC /* IOAddUserInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserInteractor.h; sourceTree = "<group>"; };
+		6A52F7A41C60C54800148CDC /* IOAddUserInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOAddUserInteractor.m; sourceTree = "<group>"; };
+		6A52F7A61C60C58300148CDC /* IOAddUserInteractorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserInteractorInterface.h; sourceTree = "<group>"; };
+		6A52F7A71C60C5A100148CDC /* IOAddUserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserDataManager.h; sourceTree = "<group>"; };
+		6A52F7A81C60C5A100148CDC /* IOAddUserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOAddUserDataManager.m; sourceTree = "<group>"; };
+		6A52F7AB1C60C62F00148CDC /* IOAddUserPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserPresenter.h; sourceTree = "<group>"; };
+		6A52F7AC1C60C62F00148CDC /* IOAddUserPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOAddUserPresenter.m; sourceTree = "<group>"; };
+		6A52F7AE1C60C65700148CDC /* IOAddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserViewController.h; sourceTree = "<group>"; };
+		6A52F7AF1C60C65700148CDC /* IOAddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOAddUserViewController.m; sourceTree = "<group>"; };
+		6A52F7B11C60C67B00148CDC /* IOAddUserWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserWireframe.h; sourceTree = "<group>"; };
+		6A52F7B21C60C67B00148CDC /* IOAddUserWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOAddUserWireframe.m; sourceTree = "<group>"; };
+		6A52F7B41C60CAFB00148CDC /* IOAddUserViewEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserViewEventHandler.h; sourceTree = "<group>"; };
+		6A52F7B51C60CCD100148CDC /* IOAddUserViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserViewInterface.h; sourceTree = "<group>"; };
+		6A52F7B61C60CCF900148CDC /* IOAddUserPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAddUserPresenterInterface.h; sourceTree = "<group>"; };
+		6A52F7B81C60D11400148CDC /* IOUserListEventHandlerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUserListEventHandlerInterface.h; sourceTree = "<group>"; };
+		6A52F7BA1C60E97900148CDC /* IOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUser.h; sourceTree = "<group>"; };
+		6A52F7BB1C60E97900148CDC /* IOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUser.m; sourceTree = "<group>"; };
+		6A52F7BF1C60EE4000148CDC /* IOUsers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOUsers.xcdatamodel; sourceTree = "<group>"; };
+		6A52F7C11C61CA1100148CDC /* IOCoreDataServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCoreDataServices.h; sourceTree = "<group>"; };
+		6A52F7C21C61CA1100148CDC /* IOCoreDataServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCoreDataServices.m; sourceTree = "<group>"; };
+		6A52F7CB1C61CB3700148CDC /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6A52F7CC1C61CB3700148CDC /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6A52F7CD1C61CB3700148CDC /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		6A52F7CE1C61CB3700148CDC /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		6A52F7D11C61D80900148CDC /* IOUserListInteractorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUserListInteractorInterface.h; sourceTree = "<group>"; };
+		6A52F7D21C61D82700148CDC /* IOUserListPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUserListPresenterInterface.h; sourceTree = "<group>"; };
+		6A52F7D31C61E1DD00148CDC /* IOUserListViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUserListViewInterface.h; sourceTree = "<group>"; };
+		6A93BB201C608AA00052BEDC /* IOLoginInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginInteractor.h; sourceTree = "<group>"; };
+		6A93BB211C608AA00052BEDC /* IOLoginInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLoginInteractor.m; sourceTree = "<group>"; };
+		6A93BB261C608AA00052BEDC /* IOLoginDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginDataManager.h; sourceTree = "<group>"; };
+		6A93BB271C608AA00052BEDC /* IOLoginDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLoginDataManager.m; sourceTree = "<group>"; };
+		6A93BB2B1C608AA00052BEDC /* IOLoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginPresenter.h; sourceTree = "<group>"; };
+		6A93BB2C1C608AA00052BEDC /* IOLoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLoginPresenter.m; sourceTree = "<group>"; };
+		6A93BB2E1C608AA00052BEDC /* IOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginViewController.h; sourceTree = "<group>"; };
+		6A93BB2F1C608AA00052BEDC /* IOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLoginViewController.m; sourceTree = "<group>"; };
+		6A93BB311C608AA00052BEDC /* IOLoginWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginWireframe.h; sourceTree = "<group>"; };
+		6A93BB321C608AA00052BEDC /* IOLoginWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLoginWireframe.m; sourceTree = "<group>"; };
+		6A93BB361C608AA00052BEDC /* IOUsersListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUsersListInteractor.h; sourceTree = "<group>"; };
+		6A93BB371C608AA00052BEDC /* IOUsersListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUsersListInteractor.m; sourceTree = "<group>"; };
+		6A93BB3C1C608AA00052BEDC /* IOUsersListDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUsersListDataManager.h; sourceTree = "<group>"; };
+		6A93BB3D1C608AA00052BEDC /* IOUsersListDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUsersListDataManager.m; sourceTree = "<group>"; };
+		6A93BB401C608AA00052BEDC /* IOUsersListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUsersListPresenter.h; sourceTree = "<group>"; };
+		6A93BB411C608AA00052BEDC /* IOUsersListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUsersListPresenter.m; sourceTree = "<group>"; };
+		6A93BB461C608AA00052BEDC /* IOUsersListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOUsersListWireframe.h; sourceTree = "<group>"; };
+		6A93BB471C608AA00052BEDC /* IOUsersListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOUsersListWireframe.m; sourceTree = "<group>"; };
+		6A93BB591C60ABCF0052BEDC /* IOLoginInteractorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginInteractorInterface.h; sourceTree = "<group>"; };
+		6A93BB5A1C60AC030052BEDC /* IOLoginPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginPresenterInterface.h; sourceTree = "<group>"; };
+		6A93BB5C1C60AE9F0052BEDC /* IOLoginViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginViewInterface.h; sourceTree = "<group>"; };
+		6A93BB5D1C60AEE50052BEDC /* IOLoginViewEventHandlerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLoginViewEventHandlerInterface.h; sourceTree = "<group>"; };
+		6AFB4AF81C5F28DA000E24C2 /* InteractionOneUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractionOneUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB4AFC1C5F28DA000E24C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AFB4AFE1C5F28DA000E24C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AFB4AFF1C5F28DA000E24C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AFB4B051C5F28DA000E24C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AFB4B071C5F28DA000E24C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AFB4B0A1C5F28DA000E24C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AFB4B0C1C5F28DA000E24C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFB4B111C5F28DA000E24C2 /* InteractionOneUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractionOneUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB4B151C5F28DA000E24C2 /* InteractionOneUsersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionOneUsersTests.m; sourceTree = "<group>"; };
+		6AFB4B171C5F28DA000E24C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFB4B1C1C5F28DA000E24C2 /* InteractionOneUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractionOneUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB4B201C5F28DA000E24C2 /* InteractionOneUsersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionOneUsersUITests.m; sourceTree = "<group>"; };
+		6AFB4B221C5F28DA000E24C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFB4B311C5F2BF5000E24C2 /* IODependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IODependencies.h; sourceTree = "<group>"; };
+		6AFB4B321C5F2BF5000E24C2 /* IODependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IODependencies.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AFB4AF51C5F28DA000E24C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B0E1C5F28DA000E24C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B191C5F28DA000E24C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A52F7991C60C44B00148CDC /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F79A1C60C44B00148CDC /* ApplicationLogic */,
+				6A52F79E1C60C44B00148CDC /* UserInterFace */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		6A52F79A1C60C44B00148CDC /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F79B1C60C44B00148CDC /* Interatactor */,
+				6A52F79C1C60C44B00148CDC /* Interfaces */,
+				6A52F79D1C60C44B00148CDC /* Manager */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		6A52F79B1C60C44B00148CDC /* Interatactor */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7A31C60C54800148CDC /* IOAddUserInteractor.h */,
+				6A52F7A41C60C54800148CDC /* IOAddUserInteractor.m */,
+			);
+			path = Interatactor;
+			sourceTree = "<group>";
+		};
+		6A52F79C1C60C44B00148CDC /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7A61C60C58300148CDC /* IOAddUserInteractorInterface.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6A52F79D1C60C44B00148CDC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7A71C60C5A100148CDC /* IOAddUserDataManager.h */,
+				6A52F7A81C60C5A100148CDC /* IOAddUserDataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6A52F79E1C60C44B00148CDC /* UserInterFace */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F79F1C60C44B00148CDC /* Interafaces */,
+				6A52F7A01C60C44B00148CDC /* Presenter */,
+				6A52F7A11C60C44B00148CDC /* View */,
+				6A52F7A21C60C44B00148CDC /* Wireframe */,
+			);
+			path = UserInterFace;
+			sourceTree = "<group>";
+		};
+		6A52F79F1C60C44B00148CDC /* Interafaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7B41C60CAFB00148CDC /* IOAddUserViewEventHandler.h */,
+				6A52F7B51C60CCD100148CDC /* IOAddUserViewInterface.h */,
+				6A52F7B61C60CCF900148CDC /* IOAddUserPresenterInterface.h */,
+			);
+			path = Interafaces;
+			sourceTree = "<group>";
+		};
+		6A52F7A01C60C44B00148CDC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7AB1C60C62F00148CDC /* IOAddUserPresenter.h */,
+				6A52F7AC1C60C62F00148CDC /* IOAddUserPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6A52F7A11C60C44B00148CDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7AE1C60C65700148CDC /* IOAddUserViewController.h */,
+				6A52F7AF1C60C65700148CDC /* IOAddUserViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A52F7A21C60C44B00148CDC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7B11C60C67B00148CDC /* IOAddUserWireframe.h */,
+				6A52F7B21C60C67B00148CDC /* IOAddUserWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6A52F7B71C60D0DF00148CDC /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7B81C60D11400148CDC /* IOUserListEventHandlerInterface.h */,
+				6A52F7D21C61D82700148CDC /* IOUserListPresenterInterface.h */,
+				6A52F7D31C61E1DD00148CDC /* IOUserListViewInterface.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6A52F7B91C60E94500148CDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7BA1C60E97900148CDC /* IOUser.h */,
+				6A52F7BB1C60E97900148CDC /* IOUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A52F7BD1C60EDFF00148CDC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7C41C61CAF500148CDC /* Entities */,
+				6A52F7BE1C60EE4000148CDC /* IOUsers.xcdatamodeld */,
+				6A52F7C11C61CA1100148CDC /* IOCoreDataServices.h */,
+				6A52F7C21C61CA1100148CDC /* IOCoreDataServices.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		6A52F7C41C61CAF500148CDC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7CB1C61CB3700148CDC /* Employee+CoreDataProperties.h */,
+				6A52F7CC1C61CB3700148CDC /* Employee+CoreDataProperties.m */,
+				6A52F7CD1C61CB3700148CDC /* Employee.h */,
+				6A52F7CE1C61CB3700148CDC /* Employee.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6A93BB1C1C608AA00052BEDC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7991C60C44B00148CDC /* AddUser */,
+				6A93BB1D1C608AA00052BEDC /* Login */,
+				6A93BB331C608AA00052BEDC /* UsersList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6A93BB1D1C608AA00052BEDC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB1E1C608AA00052BEDC /* ApplicationLogic */,
+				6A93BB281C608AA00052BEDC /* UserInterFace */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6A93BB1E1C608AA00052BEDC /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB1F1C608AA00052BEDC /* Interatactor */,
+				6A93BB221C608AA00052BEDC /* Interfaces */,
+				6A93BB251C608AA00052BEDC /* Manager */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		6A93BB1F1C608AA00052BEDC /* Interatactor */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB201C608AA00052BEDC /* IOLoginInteractor.h */,
+				6A93BB211C608AA00052BEDC /* IOLoginInteractor.m */,
+			);
+			path = Interatactor;
+			sourceTree = "<group>";
+		};
+		6A93BB221C608AA00052BEDC /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB591C60ABCF0052BEDC /* IOLoginInteractorInterface.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6A93BB251C608AA00052BEDC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB261C608AA00052BEDC /* IOLoginDataManager.h */,
+				6A93BB271C608AA00052BEDC /* IOLoginDataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6A93BB281C608AA00052BEDC /* UserInterFace */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB291C608AA00052BEDC /* Interafaces */,
+				6A93BB2A1C608AA00052BEDC /* Presenter */,
+				6A93BB2D1C608AA00052BEDC /* View */,
+				6A93BB301C608AA00052BEDC /* Wireframe */,
+			);
+			path = UserInterFace;
+			sourceTree = "<group>";
+		};
+		6A93BB291C608AA00052BEDC /* Interafaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB5A1C60AC030052BEDC /* IOLoginPresenterInterface.h */,
+				6A93BB5C1C60AE9F0052BEDC /* IOLoginViewInterface.h */,
+				6A93BB5D1C60AEE50052BEDC /* IOLoginViewEventHandlerInterface.h */,
+			);
+			path = Interafaces;
+			sourceTree = "<group>";
+		};
+		6A93BB2A1C608AA00052BEDC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB2B1C608AA00052BEDC /* IOLoginPresenter.h */,
+				6A93BB2C1C608AA00052BEDC /* IOLoginPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6A93BB2D1C608AA00052BEDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB2E1C608AA00052BEDC /* IOLoginViewController.h */,
+				6A93BB2F1C608AA00052BEDC /* IOLoginViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A93BB301C608AA00052BEDC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB311C608AA00052BEDC /* IOLoginWireframe.h */,
+				6A93BB321C608AA00052BEDC /* IOLoginWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6A93BB331C608AA00052BEDC /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB341C608AA00052BEDC /* ApplicationLogic */,
+				6A93BB3E1C608AA00052BEDC /* UserInterFace */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		6A93BB341C608AA00052BEDC /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB351C608AA00052BEDC /* Interatactor */,
+				6A93BB381C608AA00052BEDC /* Interfaces */,
+				6A93BB3B1C608AA00052BEDC /* Manager */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		6A93BB351C608AA00052BEDC /* Interatactor */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB361C608AA00052BEDC /* IOUsersListInteractor.h */,
+				6A93BB371C608AA00052BEDC /* IOUsersListInteractor.m */,
+			);
+			path = Interatactor;
+			sourceTree = "<group>";
+		};
+		6A93BB381C608AA00052BEDC /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7D11C61D80900148CDC /* IOUserListInteractorInterface.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6A93BB3B1C608AA00052BEDC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB3C1C608AA00052BEDC /* IOUsersListDataManager.h */,
+				6A93BB3D1C608AA00052BEDC /* IOUsersListDataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6A93BB3E1C608AA00052BEDC /* UserInterFace */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7B71C60D0DF00148CDC /* Interfaces */,
+				6A93BB3F1C608AA00052BEDC /* Presenter */,
+				6A93BB421C608AA00052BEDC /* View */,
+				6A93BB451C608AA00052BEDC /* Wireframe */,
+			);
+			path = UserInterFace;
+			sourceTree = "<group>";
+		};
+		6A93BB3F1C608AA00052BEDC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB401C608AA00052BEDC /* IOUsersListPresenter.h */,
+				6A93BB411C608AA00052BEDC /* IOUsersListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6A93BB421C608AA00052BEDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7951C60BF9E00148CDC /* IOUsersListViewController.h */,
+				6A52F7961C60BF9E00148CDC /* IOUsersListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A93BB451C608AA00052BEDC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB461C608AA00052BEDC /* IOUsersListWireframe.h */,
+				6A93BB471C608AA00052BEDC /* IOUsersListWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6A93BB521C608AB80052BEDC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6A52F7BD1C60EDFF00148CDC /* Store */,
+				6A52F7B91C60E94500148CDC /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6AFB4AEF1C5F28DA000E24C2 = {
+			isa = PBXGroup;
+			children = (
+				6AFB4AFA1C5F28DA000E24C2 /* InteractionOneUsers */,
+				6AFB4B141C5F28DA000E24C2 /* InteractionOneUsersTests */,
+				6AFB4B1F1C5F28DA000E24C2 /* InteractionOneUsersUITests */,
+				6AFB4AF91C5F28DA000E24C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AFB4AF91C5F28DA000E24C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB4AF81C5F28DA000E24C2 /* InteractionOneUsers.app */,
+				6AFB4B111C5F28DA000E24C2 /* InteractionOneUsersTests.xctest */,
+				6AFB4B1C1C5F28DA000E24C2 /* InteractionOneUsersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AFB4AFA1C5F28DA000E24C2 /* InteractionOneUsers */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB4B341C5F2C2C000E24C2 /* Classes */,
+				6AFB4AFE1C5F28DA000E24C2 /* AppDelegate.h */,
+				6AFB4AFF1C5F28DA000E24C2 /* AppDelegate.m */,
+				6AFB4B311C5F2BF5000E24C2 /* IODependencies.h */,
+				6AFB4B321C5F2BF5000E24C2 /* IODependencies.m */,
+				6AFB4B041C5F28DA000E24C2 /* Main.storyboard */,
+				6AFB4B071C5F28DA000E24C2 /* Assets.xcassets */,
+				6AFB4B091C5F28DA000E24C2 /* LaunchScreen.storyboard */,
+				6AFB4B0C1C5F28DA000E24C2 /* Info.plist */,
+				6AFB4AFB1C5F28DA000E24C2 /* Supporting Files */,
+			);
+			path = InteractionOneUsers;
+			sourceTree = "<group>";
+		};
+		6AFB4AFB1C5F28DA000E24C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB4AFC1C5F28DA000E24C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AFB4B141C5F28DA000E24C2 /* InteractionOneUsersTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB4B151C5F28DA000E24C2 /* InteractionOneUsersTests.m */,
+				6AFB4B171C5F28DA000E24C2 /* Info.plist */,
+			);
+			path = InteractionOneUsersTests;
+			sourceTree = "<group>";
+		};
+		6AFB4B1F1C5F28DA000E24C2 /* InteractionOneUsersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB4B201C5F28DA000E24C2 /* InteractionOneUsersUITests.m */,
+				6AFB4B221C5F28DA000E24C2 /* Info.plist */,
+			);
+			path = InteractionOneUsersUITests;
+			sourceTree = "<group>";
+		};
+		6AFB4B341C5F2C2C000E24C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A93BB521C608AB80052BEDC /* Common */,
+				6A93BB1C1C608AA00052BEDC /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AFB4AF71C5F28DA000E24C2 /* InteractionOneUsers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFB4B251C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsers" */;
+			buildPhases = (
+				6AFB4AF41C5F28DA000E24C2 /* Sources */,
+				6AFB4AF51C5F28DA000E24C2 /* Frameworks */,
+				6AFB4AF61C5F28DA000E24C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractionOneUsers;
+			productName = InteractionOneUsers;
+			productReference = 6AFB4AF81C5F28DA000E24C2 /* InteractionOneUsers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AFB4B101C5F28DA000E24C2 /* InteractionOneUsersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFB4B281C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsersTests" */;
+			buildPhases = (
+				6AFB4B0D1C5F28DA000E24C2 /* Sources */,
+				6AFB4B0E1C5F28DA000E24C2 /* Frameworks */,
+				6AFB4B0F1C5F28DA000E24C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AFB4B131C5F28DA000E24C2 /* PBXTargetDependency */,
+			);
+			name = InteractionOneUsersTests;
+			productName = InteractionOneUsersTests;
+			productReference = 6AFB4B111C5F28DA000E24C2 /* InteractionOneUsersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AFB4B1B1C5F28DA000E24C2 /* InteractionOneUsersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFB4B2B1C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsersUITests" */;
+			buildPhases = (
+				6AFB4B181C5F28DA000E24C2 /* Sources */,
+				6AFB4B191C5F28DA000E24C2 /* Frameworks */,
+				6AFB4B1A1C5F28DA000E24C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AFB4B1E1C5F28DA000E24C2 /* PBXTargetDependency */,
+			);
+			name = InteractionOneUsersUITests;
+			productName = InteractionOneUsersUITests;
+			productReference = 6AFB4B1C1C5F28DA000E24C2 /* InteractionOneUsersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AFB4AF01C5F28DA000E24C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "InteractionOne Solutions Pvt Ltd.";
+				TargetAttributes = {
+					6AFB4AF71C5F28DA000E24C2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6AFB4B101C5F28DA000E24C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6AFB4AF71C5F28DA000E24C2;
+					};
+					6AFB4B1B1C5F28DA000E24C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6AFB4AF71C5F28DA000E24C2;
+					};
+				};
+			};
+			buildConfigurationList = 6AFB4AF31C5F28DA000E24C2 /* Build configuration list for PBXProject "InteractionOneUsers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AFB4AEF1C5F28DA000E24C2;
+			productRefGroup = 6AFB4AF91C5F28DA000E24C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AFB4AF71C5F28DA000E24C2 /* InteractionOneUsers */,
+				6AFB4B101C5F28DA000E24C2 /* InteractionOneUsersTests */,
+				6AFB4B1B1C5F28DA000E24C2 /* InteractionOneUsersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AFB4AF61C5F28DA000E24C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB4B0B1C5F28DA000E24C2 /* LaunchScreen.storyboard in Resources */,
+				6AFB4B081C5F28DA000E24C2 /* Assets.xcassets in Resources */,
+				6AFB4B061C5F28DA000E24C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B0F1C5F28DA000E24C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B1A1C5F28DA000E24C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AFB4AF41C5F28DA000E24C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A93BB4C1C608AA00052BEDC /* IOLoginWireframe.m in Sources */,
+				6A52F7B31C60C67B00148CDC /* IOAddUserWireframe.m in Sources */,
+				6A52F7C31C61CA1100148CDC /* IOCoreDataServices.m in Sources */,
+				6A52F7C01C60EE4000148CDC /* IOUsers.xcdatamodeld in Sources */,
+				6A93BB4A1C608AA00052BEDC /* IOLoginPresenter.m in Sources */,
+				6A93BB4E1C608AA00052BEDC /* IOUsersListDataManager.m in Sources */,
+				6A52F7A91C60C5A100148CDC /* IOAddUserDataManager.m in Sources */,
+				6AFB4B331C5F2BF5000E24C2 /* IODependencies.m in Sources */,
+				6A52F7971C60BF9E00148CDC /* IOUsersListViewController.m in Sources */,
+				6A52F7A51C60C54800148CDC /* IOAddUserInteractor.m in Sources */,
+				6A52F7D01C61CB3700148CDC /* Employee.m in Sources */,
+				6A52F7AD1C60C62F00148CDC /* IOAddUserPresenter.m in Sources */,
+				6A52F7BC1C60E97900148CDC /* IOUser.m in Sources */,
+				6AFB4B001C5F28DA000E24C2 /* AppDelegate.m in Sources */,
+				6A93BB511C608AA00052BEDC /* IOUsersListWireframe.m in Sources */,
+				6A93BB4B1C608AA00052BEDC /* IOLoginViewController.m in Sources */,
+				6A52F7CF1C61CB3700148CDC /* Employee+CoreDataProperties.m in Sources */,
+				6A93BB491C608AA00052BEDC /* IOLoginDataManager.m in Sources */,
+				6A93BB4D1C608AA00052BEDC /* IOUsersListInteractor.m in Sources */,
+				6A93BB481C608AA00052BEDC /* IOLoginInteractor.m in Sources */,
+				6A93BB4F1C608AA00052BEDC /* IOUsersListPresenter.m in Sources */,
+				6AFB4AFD1C5F28DA000E24C2 /* main.m in Sources */,
+				6A52F7B01C60C65700148CDC /* IOAddUserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B0D1C5F28DA000E24C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB4B161C5F28DA000E24C2 /* InteractionOneUsersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB4B181C5F28DA000E24C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB4B211C5F28DA000E24C2 /* InteractionOneUsersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AFB4B131C5F28DA000E24C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AFB4AF71C5F28DA000E24C2 /* InteractionOneUsers */;
+			targetProxy = 6AFB4B121C5F28DA000E24C2 /* PBXContainerItemProxy */;
+		};
+		6AFB4B1E1C5F28DA000E24C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AFB4AF71C5F28DA000E24C2 /* InteractionOneUsers */;
+			targetProxy = 6AFB4B1D1C5F28DA000E24C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AFB4B041C5F28DA000E24C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AFB4B051C5F28DA000E24C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AFB4B091C5F28DA000E24C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AFB4B0A1C5F28DA000E24C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AFB4B231C5F28DA000E24C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AFB4B241C5F28DA000E24C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AFB4B261C5F28DA000E24C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractionOneUsers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AFB4B271C5F28DA000E24C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractionOneUsers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AFB4B291C5F28DA000E24C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractionOneUsersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractionOneUsers.app/InteractionOneUsers";
+			};
+			name = Debug;
+		};
+		6AFB4B2A1C5F28DA000E24C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractionOneUsersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractionOneUsers.app/InteractionOneUsers";
+			};
+			name = Release;
+		};
+		6AFB4B2C1C5F28DA000E24C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractionOneUsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractionOneUsers;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6AFB4B2D1C5F28DA000E24C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractionOneUsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Interaction.InteractionOneUsersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractionOneUsers;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AFB4AF31C5F28DA000E24C2 /* Build configuration list for PBXProject "InteractionOneUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB4B231C5F28DA000E24C2 /* Debug */,
+				6AFB4B241C5F28DA000E24C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFB4B251C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB4B261C5F28DA000E24C2 /* Debug */,
+				6AFB4B271C5F28DA000E24C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFB4B281C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB4B291C5F28DA000E24C2 /* Debug */,
+				6AFB4B2A1C5F28DA000E24C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFB4B2B1C5F28DA000E24C2 /* Build configuration list for PBXNativeTarget "InteractionOneUsersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB4B2C1C5F28DA000E24C2 /* Debug */,
+				6AFB4B2D1C5F28DA000E24C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A52F7BE1C60EE4000148CDC /* IOUsers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A52F7BF1C60EE4000148CDC /* IOUsers.xcdatamodel */,
+			);
+			currentVersion = 6A52F7BF1C60EE4000148CDC /* IOUsers.xcdatamodel */;
+			path = IOUsers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6AFB4AF01C5F28DA000E24C2 /* Project object */;
+}
